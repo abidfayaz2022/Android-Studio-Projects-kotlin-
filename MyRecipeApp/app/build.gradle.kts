@@ -52,15 +52,15 @@ android {
 dependencies {
 
 
-    implementation("com.squareup.retrofit2:retrofit:2.9.0")  // A type-safe HTTP client for Android and Java
-    implementation("io.coil-kt:coil-compose:2.4.0")  //it is used to load an image
-    implementation("com.squareup.retrofit2:converter-gson:2.9.0")  //it converts the json script into kotlin equivalent object and vice versa
-    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
+    implementation("com.squareup.retrofit2:retrofit:2.11.0")  // A type-safe HTTP client for Android and Java
+    implementation("io.coil-kt:coil-compose:2.6.0")  //it is used to load an image
+    implementation("com.squareup.retrofit2:converter-gson:2.11.0")  //it converts the json script into kotlin equivalent object and vice versa
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.1")
 
 
     implementation("androidx.core:core-ktx:1.13.1")
-    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
-    implementation("androidx.activity:activity-compose:1.8.0")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.1")
+    implementation("androidx.activity:activity-compose:1.9.0")
     implementation(platform("androidx.compose:compose-bom:2023.08.00"))
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.ui:ui-graphics")
