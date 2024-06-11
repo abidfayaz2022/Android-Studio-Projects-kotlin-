@@ -10,6 +10,7 @@ class MainViewModel: ViewModel() {
     private val _categoryState= mutableStateOf(RecipeState())
     val categoryState:State<RecipeState> = _categoryState
 
+
     init {
         fetchCategories()
     }
