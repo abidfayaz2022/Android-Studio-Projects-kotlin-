@@ -31,7 +31,7 @@ fun CategoryDetailScreen(category: Category){
                 .wrapContentSize()
                 .aspectRatio(1f)
         )
-        Text(text = category.strCategoryDescriptor,
+        Text(text = category.strCategoryDescription,
              textAlign = Justify,
             modifier = Modifier.verticalScroll(rememberScrollState())
         )

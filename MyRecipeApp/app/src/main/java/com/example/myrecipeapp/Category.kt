@@ -7,7 +7,7 @@ import kotlinx.parcelize.Parcelize
 data class Category(val idCategory: String,
     val strCategory: String,
     val strCategoryThumb: String,
-    val strCategoryDescriptor: String) : Parcelable
+    val strCategoryDescription: String) : Parcelable
 
 
 data class CategoryResponse(val categories:List<Category>)
